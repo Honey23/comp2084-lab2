@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Productss";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Completing Lab2</h2>
+
+<p> MVC APPLICATION THIS HAS THREE PRODUCTS</p>
+
+<ul>
+    <li>@Html.ActionLink("Laptop", "details", "Productss", new { YouSelectedProduct = "Laptop"}, null)</li>
+    <li>@Html.ActionLink("Tablet", "details", "Productss", new { YouSelectedProduct = "Tablet"}, null)</li>
+    <li>@Html.ActionLink("Desktop", "details", "Productss", new { YouSelectedProduct = "Desktop"}, null)</li>
+</ul>
+
